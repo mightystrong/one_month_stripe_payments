@@ -50,3 +50,6 @@ group :production do
 end
 
 gem 'bootstrap-sass'
+
+# Use Stripe for E-commerge payments
+gem 'stripe'
