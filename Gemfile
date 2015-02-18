@@ -50,3 +50,9 @@ group :production do
 end
 
 gem 'bootstrap-sass'
+
+# Use Stripe for E-commerge payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# For managing secret keys
+gem "figaro"
