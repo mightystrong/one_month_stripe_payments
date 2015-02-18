@@ -56,3 +56,6 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # For managing secret keys
 gem "figaro"
+
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
