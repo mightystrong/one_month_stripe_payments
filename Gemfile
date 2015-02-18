@@ -59,3 +59,9 @@ gem "figaro"
 
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
+
+# Generates an admin interface.
+gem 'activeadmin', github: 'activeadmin'
+
+# Add devise for active admin
+gem 'devise'
