@@ -10,8 +10,8 @@ growth_hacking = Product.create(
   title: "Growth Hacking",
   subtitle: "Crash Course",
   author: "Mattan Griffel",
-  price: "4.99"
-  sku: "GROHACK1"
+  price: "4.99",
+  sku: "GROHACK1",
   description: %{
     <p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
